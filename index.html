@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="logic.js"></script>
     <title>Git-Eye</title>
 </head>
+
 <body>
 
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">GIT EYE</span>
+    </nav>
 
+    <br>
+
+    <div id=jumbotron class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <br>
+            <h1 class="display-4">Git-Eye</h1>
+            <p class="lead"> </p>
+<div class="row">
+            <div class="col-6">
+
+            <form>
+                <div class="form-group row">
+                    <label for="username_">USER NAME</label>
+                    <input class="form-control" id="username" type="text">
+                </div>
+                <div class="form-group row">
+                    <label for="bidder-price">PROJECT NAME</label>
+                    <input class="form-control" id="projectname" type="text">
+                </div>
+                <button class="btn btn-primary" id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="col-6">
+            <h5>Heres your stuff : </h5>
+            <ol>
+            <a id='results'>  </a>
+            </ol>
+        </div>
     
-    
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
 </body>
+
 </html>
