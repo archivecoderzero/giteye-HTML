@@ -1,4 +1,5 @@
 function submit ( ) {
+    event.preventDefault()
     username = $("#username").val().trim();
     projectname = $("#projectname").val().trim();
     var resultDiv = $("<li>");
@@ -9,7 +10,6 @@ function submit ( ) {
     linkable.append(the)
     $("#results").append(resultDiv);
     resultDiv.append(linkable);
-
 }
 
 $(document).on("click", "#submit", submit);
