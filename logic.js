@@ -5,6 +5,7 @@ function submit ( ) {
     var resultDiv = $("<li>");
     var linkable = $("<a>");
     var the = "https://" + username + ".github.io/" + projectname + "/" ;
+    linkable.addClass("links")
     linkable.attr("href", the);
     linkable.attr("target","_blank")
     linkable.append(the)
