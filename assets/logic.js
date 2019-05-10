@@ -11,6 +11,7 @@ function submit ( ) {
     linkable.append(the)
     $("#results").append(resultDiv);
     resultDiv.append(linkable);
+    console.log ("Sending notification to " + username, "that you visited " + projectname + ", star this app to enable Stealth MODE :p" )
 }
 
 function clear ( ) {
